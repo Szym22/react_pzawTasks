@@ -48,7 +48,11 @@ function RouteComponent() {
         <input type="checkbox" ref={checkboxRef} />
         Sponsored
       </label>
-      <button type="submit" className="btn btn-primary" style={{ width: "200px", marginTop: "1rem" }}>
+      <button
+        type="submit"
+        className="btn btn-primary"
+        style={{ width: "200px", marginTop: "1rem" }}
+      >
         Submit
       </button>
     </form>
